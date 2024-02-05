@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acompanhantes de Luxo</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/script.js">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid" id="content">
+    <nav class="navbar navbar-expand-lg bg-body" data-bs-theme="dark" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Modelos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Zona Norte</a></li>
+                <li><a class="dropdown-item" href="#">Zona Leste</a></li>
+                <li><a class="dropdown-item" href="#">Zona Oeste</a></li>
+                <li><a class="dropdown-item" href="#">Zona Sul</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="catalogo.html">Catálogo Completo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SAC</a>
+            </li>
+          </ul>
+          <input class="form-control ms-4" type="search" placeholder="Pesquisar" aria-label="Search" />
+          <button class="btn btn-outline-success col ms-1" type="submit">
+            Pesquisar
+          </button>
+          <button type="button" class="btn btn-primary col ms-1" data-bs-toggle="modal" data-bs-target="#modal">
+            Cadastro
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div id="carousel" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/img/ex1.jpg" class="d-block w-25" alt="..." id="modelo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fulana</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/ex2.jpg" class="d-block w-25" alt="..." id="modelo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ciclana</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/ex3.jpg" class="d-block w-25" alt="..." id="modelo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Beltrana</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid" id="page-content">
+      <h1 class="tittle">Encontre as meslhores modelos mais próximas de você</h1>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum et sunt nisi, iste reiciendis 
+        pariatur nesciunt provident ex eum neque corrupti repellat amet consequuntur ullam vitae labore unde in 
+        molestiae?Lorem ipsum dolor sit, amet consectetur adipisicing elit. At veniam delectus quos odio facilis 
+        atque quia libero commodi vero ad, enim ea temporibus, aperiam, repellat natus hic nisi reiciendis Lorem ipsum 
+        dolor sit amet consectetur adipisicing elit. Accusantium, facere. Sequi voluptate consequatur nam earum ipsa 
+        sit blanditiis esse, dignissimos excepturi ad optio id cumque facere, nostrum quos ex Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Quidem, voluptatum esse quia adipisci eligendi impedit maxime praesentium placeat ea 
+        quod cum odit molestias veritatis asperiores similique possimus odio iste reprehenderit.</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

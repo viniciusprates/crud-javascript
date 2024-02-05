@@ -1,0 +1,33 @@
+.navbar {
+    margin-bottom: 2px;
+}
+.logo {
+    height: 35px;
+    margin-left: 10px;
+}
+#page-content {
+    width: 80%;
+    align-content: center;
+}
+img {
+    width: 80%;
+}
+#carousel {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.carousel-inner {
+    background-color: #1f1f1f;
+}
+.tittle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:black;
+}
